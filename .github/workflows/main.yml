@@ -41,6 +41,6 @@ jobs:
         with:
           images: jeln666/rotten-potatoes:v${{ github.run_number }}
           manifest:
-            k8s/depolyment.yaml
+            k8s/deployment.yaml
             
             
