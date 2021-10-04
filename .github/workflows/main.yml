@@ -25,7 +25,8 @@ jobs:
             jeln666/rotten-potatoes:latest
             jeln666/rotten-potatoes:v${{ github.run_number }}
   CD:
-    runs-on: ubuntu-lastest
+    needs: [CI]
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       
