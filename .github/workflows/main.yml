@@ -23,4 +23,4 @@ jobs:
           push: true
           tags: |
             jeln666/rotten-potatoes:latest
-            jeln666/rotten-potatos:v${{ github.run_number }}
+            jeln666/rotten-potatoes:v${{ github.run_number }}
